@@ -3,7 +3,6 @@ const quoteText = document.querySelector(".quote");
 const author = document.querySelector(".author");
 const nextQuoteBtn = document.querySelector(".next-quote");
 const tweetBtn = document.querySelector(".twitter-button");
-console.log(loader);
 let currentIndex = 0;
 let quotesArray = [];
 function showquoteAndauthor(quotesArray){
@@ -16,7 +15,6 @@ async function makeAPICall(){
     let response = await fetch("https://type.fit/api/quotes");
     quotesArray = await response.json();
     showquoteAndauthor(quotesArray);
-
 }
 nextQuoteBtn.addEventListener("click",()=>{
     showquoteAndauthor(quotesArray);
