@@ -21,7 +21,10 @@ body{
     font-family: 'Pacifico', cursive;
     font-weight: 400;
     font-size:2.5rem;
-    overflow: hidden;
+    overflow: auto;
+}
+body::-webkit-scrollbar{
+    display:none;
 }
 .quotes-container{
     width: 80vw;
