@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote Generator</title>
+    <link href="./style.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <!-- https://type.fit/api/quotes -->
+    <div class="quotes-container">
+        <i class="fa-solid fa-quote-left"></i>
+        <span class="quote" id="quote">Genius is one percent inspiration and ninety-nine percent perspiration.</span>
+        <div class="author" id="author">Thomas Edison</div>
+        <div class="buttton-container">
+            <button class="twitter-button" id="twitter-button"><i class="fa-brands fa-twitter"></i></button>
+            <button class="next-quote">Next Quote</button>
+        </div>
+    </div>
+    <div id="loading"></div>
+</body>
+</html> 
